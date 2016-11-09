@@ -43,7 +43,7 @@ public class JPAConfig {
         lcemfb.setDataSource(getDataSource());
         lcemfb.setJpaVendorAdapter(jpaVendorAdapter());
         lcemfb.setPersistenceProviderClass(HibernatePersistenceProvider.class);
-        lcemfb.setPackagesToScan("ru.innopolis.my1.entity");
+        lcemfb.setPackagesToScan("ru.innopolis.my.entity");
         return lcemfb;
     }
 
